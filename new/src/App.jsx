@@ -1,10 +1,15 @@
 import "./App.css";
+import Header from "./components/header";
+import Content from "./components/content";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="min-h-max flex items-center justify-center bg-emerald-400">
-      <h1 className="text-6xl font-bold text-black">Hola mundo 🚀</h1>
-    </div>
+    <>
+      <Header />
+      <content />
+      <footer />
+    </>
   );
 }
 
